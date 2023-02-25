@@ -8,6 +8,10 @@ class Program
         string magicValue = Console.ReadLine();
         int magic = int.Parse(magicValue); 
 
+        int game = 0;
+
+        do
+        {
         Console.Write("What is your guess? ");
         string guessValue = Console.ReadLine();
         int guess = int.Parse(guessValue); 
@@ -19,10 +23,13 @@ class Program
         else if (magic == guess)
         {
             Console.WriteLine("You guessed it!");
+            magic = game;
         }
         else
         {
             Console.WriteLine("Lower");
         }
+        } while (magic != game);
+
     }
 }
