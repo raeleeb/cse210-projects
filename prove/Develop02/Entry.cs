@@ -8,7 +8,6 @@ public class Entry
     public string prompt; 
     public string response;
 
-
     public Entry(string _date, string _prompt, string _response)
     {
         date = _date;
@@ -31,7 +30,5 @@ public class Entry
     {
         return string.Format("{0}|{1}|{2}", date,"Prompt: " + prompt,"Response: " + response);
     }
-
     
-
 }

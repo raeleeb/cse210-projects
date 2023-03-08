@@ -7,7 +7,6 @@ public class Journal
     // Create, display, save and load journal to user
     public List<Entry> entries = new List<Entry>();
 
-
     public Journal()
     {
 
@@ -75,10 +74,8 @@ public class Journal
             foreach (Entry entry in entries)
             {
                 outputFile.WriteLine(entry.DelimitToProcess());
-            }
-        
+            }     
         }
-
     }
 
     // Allows user to load pre-existing file and displays. 
@@ -107,12 +104,8 @@ public class Journal
         catch (FileNotFoundException)
         {
             Console.WriteLine("\nFile doesn't exist, try again.");
-        }
-
-    
-
-    }
-    
+        }   
+    }    
 }
 
     
