@@ -1,0 +1,5 @@
+365
+SimpleGoal:|Give a talk|When asked, speak in church|75|False
+EternalGoal:|Read the scriptures|Read/study the scriptures daily|25
+ChecklistGoal:|Attend the temple|Participate in temple ordinances|30|True|2|3|150
+SimpleGoal:|Share a talent|Cook a meal for someone in need|50|True
